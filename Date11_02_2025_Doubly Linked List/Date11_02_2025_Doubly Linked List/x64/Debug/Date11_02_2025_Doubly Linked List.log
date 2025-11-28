@@ -1,0 +1,9 @@
+﻿  DoublyLinkedList.c
+  Source.c
+  Generating Code...
+C:\Code\C\Date11_02_2025_Doubly Linked List\Date11_02_2025_Doubly Linked List\DoublyLinkedList.c(65,1): warning C4716: 'DLLPopFront': must return a value
+C:\Code\C\Date11_02_2025_Doubly Linked List\Date11_02_2025_Doubly Linked List\DoublyLinkedList.c(36,1): warning C4716: 'DLLPushBack': must return a value
+C:\Code\C\Date11_02_2025_Doubly Linked List\Date11_02_2025_Doubly Linked List\DoublyLinkedList.c(22,1): warning C4716: 'DLLInit': must return a value
+C:\Code\C\Date11_02_2025_Doubly Linked List\Date11_02_2025_Doubly Linked List\DoublyLinkedList.c(46,1): warning C4716: 'DLLPopBack': must return a value
+C:\Code\C\Date11_02_2025_Doubly Linked List\Date11_02_2025_Doubly Linked List\DoublyLinkedList.c(55,1): warning C4716: 'DLLPushFront': must return a value
+  Date11_02_2025_Doubly Linked List.vcxproj -> C:\Code\C\Date11_02_2025_Doubly Linked List\x64\Debug\Date11_02_2025_Doubly Linked List.exe

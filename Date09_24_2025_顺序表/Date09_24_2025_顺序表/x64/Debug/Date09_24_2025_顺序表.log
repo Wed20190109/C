@@ -1,0 +1,9 @@
+﻿  AddressBook.c
+  SequenceList.c
+  Source.c
+  Generating Code...
+C:\Code\C\Date09_24_2025_顺序表\Date09_24_2025_顺序表\Source.c(41,3): warning C4013: 'menu' undefined; assuming extern returning int
+C:\Code\C\Date09_24_2025_顺序表\Date09_24_2025_顺序表\Source.c(46,4): warning C4013: 'AddressBookAdd' undefined; assuming extern returning int
+C:\Code\C\Date09_24_2025_顺序表\Date09_24_2025_顺序表\Source.c(76,2): warning C4033: 'menu' must return a value
+C:\Code\C\Date09_24_2025_顺序表\Date09_24_2025_顺序表\Source.c(77,1): warning C4716: 'menu': must return a value
+  Date09_24_2025_顺序表.vcxproj -> C:\Code\C\Date09_24_2025_顺序表\x64\Debug\Date09_24_2025_顺序表.exe
