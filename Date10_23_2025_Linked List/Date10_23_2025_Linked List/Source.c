@@ -1,8 +1,8 @@
-#include "SinglyLinkedList.h"
+﻿#include "SinglyLinkedList.h"
 
 int SimpleTest()
 {
-	node* newNode1 = (struct node*)malloc(sizeof(node));
+	node* newNode1 = (struct node*)malloc(sizeof(node));// 刚开始学先手动链接单链表
 	newNode1->data = 1;
 	node* newNode2 = (struct node*)malloc(sizeof(node));
 	newNode2->data = 2;
