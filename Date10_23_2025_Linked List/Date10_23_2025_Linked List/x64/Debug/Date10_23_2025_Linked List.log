@@ -1,21 +1,4 @@
-﻿  SinglyLinkedList.c
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(23,7): warning C4133: '=': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(41,8): warning C4133: '=': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(43,13): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(62,8): warning C4133: '=': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(74,8): warning C4133: 'initializing': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(84,16): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(98,7): warning C4133: '=': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(110,9): warning C4133: 'initializing': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(127,21): warning C4133: '!=': incompatible types - from 'node *' to 'Node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(129,9): warning C4133: '=': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(131,17): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(132,14): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(146,12): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(153,20): warning C4133: '!=': incompatible types - from 'node *' to 'Node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(155,8): warning C4133: '=': incompatible types - from 'Node *' to 'node *'
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(167,6): warning C4133: '=': incompatible types - from 'Node *' to 'node *'
-  Source.c
+﻿  Source.c
 C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(18,17): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
 C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(19,17): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
 C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(20,17): warning C4133: '=': incompatible types - from 'node *' to 'Node *'
@@ -29,11 +12,5 @@ C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(9,8): w
 C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(11,8): warning C4133: 'initializing': incompatible types - from 'node *' to 'node *'
 C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(13,8): warning C4133: 'initializing': incompatible types - from 'node *' to 'node *'
 C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(15,8): warning C4133: 'initializing': incompatible types - from 'node *' to 'node *'
-  Generating Code...
 C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\Source.c(35,1): warning C4716: 'SimpleTest': must return a value
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(171,1): warning C4716: 'SLLEraseBackward': must return a value
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(115,1): warning C4716: 'SLLDestroy': must return a value
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(135,1): warning C4716: 'SLLInsertForward': must return a value
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(147,1): warning C4716: 'SLLInsertBackward': must return a value
-C:\Code\C\Date10_23_2025_Linked List\Date10_23_2025_Linked List\SinglyLinkedList.c(161,1): warning C4716: 'SLLErase': must return a value
   Date10_23_2025_Linked List.vcxproj -> C:\Code\C\Date10_23_2025_Linked List\x64\Debug\Date10_23_2025_Linked List.exe
