@@ -37,28 +37,33 @@ fclose
 //}
 
 
-///*
-//fgetc
-//接受参数类型:int fgetc ( FILE * stream );
-//*/
-//int main()
-//{
-//	FILE* pf2 = fopen("test.txt", "r");
-//	if (pf2 == NULL)
-//	{
-//		perror("fopen");
-//		return 1;
-//
-//	}
-//	//从文件输入数据到目标内
-//	int ch=fgetc(pf2);
-//	printf("%c",ch);
-//	//关闭文件
-//	int fclose(pf2);
-//	pf2 = NULL;
-//	return 0;
-//}
+/*
+fgetc
+接受参数类型:int fgetc ( FILE * stream );
+单次用只能读取一个字符
+*/
+int main()
+{
+	FILE* pf2 = fopen("test.txt", "r");
+	if (pf2 == NULL)
+	{
+		perror("fopen");
+		return 1;
 
+	}
+	//从文件输入数据到目标内
+	int ch=fgetc(pf2);
+	printf("%c",ch);
+	while ((ch=fgetc(pf2)) != EOF)//fgetc：让“文件指针”往后走一格，并把那一格字符返回给你，这里是想打印所有字符
+	{
+		printf("%c", ch);
+		
+	}
+	//关闭文件
+	int fclose(pf2);
+	pf2 = NULL;
+	return 0;
+}
 
 /* fgets 与 fputs
 ①fgets:
@@ -175,15 +180,15 @@ rewind:
 
 
 
-int main()
-{
-	FILE* pf7 = fopen("test.txt", "r");
-	if (pf7 == NULL)
-	{
-		perror("fopen");
-		return 1;
-	}
-
-	fclose(pf7);
-	pf7 = NULL;
-}
+//int main()
+//{
+//	FILE* pf7 = fopen("test.txt", "r");
+//	if (pf7 == NULL)
+//	{
+//		perror("fopen");
+//		return 1;
+//	}
+//
+//	fclose(pf7);
+//	pf7 = NULL;
+//}
